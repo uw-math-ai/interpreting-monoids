@@ -4,6 +4,12 @@ Training and analyzing decoder-only transformers that learn modular multiplicati
 
 The model is a single-layer decoder-only transformer (embedding → causal multihead attention → MLP → unembed). We study how it internalizes algebraic structure — J-classes, cyclic groups, and monoid decompositions — through embedding geometry and attention patterns.
 
+## Paper
+
+[Interpreting Monoids](https://openreview.net/forum?id=26C2wzldtJ)
+
+Joint work with Zitong Chen, [Junaid Hasan](https://junaidhasan.com), Akhil Srinivasan, Hemkesh Bandi, Jarod Alper.
+
 ## Setup
 
 Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/).
