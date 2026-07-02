@@ -1,0 +1,16 @@
+[project]
+name = "mod-mult-interp"
+version = "0.1.0"
+description = "Modular multiplication interpretability: training and analyzing decoder-only transformers on a*b mod P"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.0",
+    "numpy",
+    "matplotlib",
+    "sympy",
+    "scikit-learn",
+    "plotly",
+    "ipykernel>=7.2.0",
+    "nbformat>=4.2.0",
+    "pandas>=3.0.2",
+]

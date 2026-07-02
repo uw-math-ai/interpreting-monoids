@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Model checkpoints (keep folder, ignore weights except reference)
+experiments/*.pt
+!experiments/P165_d128_h4_mlp512_s1.pt
+
+# Generated images (keep folder, ignore SVG outputs)
+images/*/*.svg
+
+# OS
+.DS_Store
+
+# Tools / IDE
+bin/
+.vscode/
+.claude/
+.python-version
+
+# Root-level scratch / paper files
+HASHES.md
+monoid.md
+interpreting_monoids.pdf
+training_full_dataset.ipynb
+trained_model_weights_monoid-165_seed-22.pt
+*.zip
+/*.pdf
